@@ -1,24 +1,28 @@
-# New Project
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-> ✨ Bootstrapped with Create Snowpack App (CSA).
+### Built with
 
-## Available Scripts
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [Typescript](https://typescript.com/)
+- [Snowpack](https://snowpack.com/) - For bandlling
 
-### npm start
+### What I learned
 
-Runs the app in the development mode.
-Open http://localhost:8080 to view it in the browser.
+In this project i used the typescript and learn how to use it, also how to use snowpack as bandeller for my files, I arealdy do this project so its logic was too easy
 
-The page will reload if you make edits.
-You will also see any lint errors in the console.
 
-### npm run build
+```js
+const proudOfThisFunc = () => {
+    type Task = {
+    id:number,
+    titel:string,
+    done:boolean,
+    date:Date,
+    }
+   let tasks:Task[]= loadData();
+}
+```
 
-Builds a static copy of your site to the `build/` folder.
-Your app is ready to be deployed!
-
-**For the best production performance:** Add a build bundler plugin like [@snowpack/plugin-webpack](https://github.com/snowpackjs/snowpack/tree/main/plugins/plugin-webpack) or [snowpack-plugin-rollup-bundle](https://github.com/ParamagicDev/snowpack-plugin-rollup-bundle) to your `snowpack.config.mjs` config file.
-
-### Q: What about Eject?
-
-No eject needed! Snowpack guarantees zero lock-in, and CSA strives for the same.
